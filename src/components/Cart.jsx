@@ -41,7 +41,7 @@ const Cart = () => {
           <footer className='text-center'>
             <button
               className='btn btn-primary'
-              onClick={() => dispatch(clearAllItems)}
+              onClick={() => dispatch(clearAllItems())}
             >
               CHECKOUT
             </button>
